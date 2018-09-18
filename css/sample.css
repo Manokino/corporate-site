@@ -254,8 +254,8 @@ h1 {
     #sub_cover {
       background-image: url("../images/news/sub_cover@2x.jpg"); } }
   #sub_cover h2 {
-    font-size: 15px;
-    font-size: 1.5rem;
+    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: bold;
     color: white;
     margin: 0;
@@ -303,14 +303,14 @@ h1 {
   #contents #main .company_title {
     display: block;
     margin-bottom: 0px; }
-  #contents #main table th {
+  #contents #main table {
+    color: #626262;
     font-size: 14px;
-    font-size: 1.4rem;
-    padding: 20px 20px 20px 0; }
-  #contents #main table td {
-    font-size: 14px;
-    font-size: 1.4rem;
-    padding: 20px 0; }
+    font-size: 1.4rem; }
+    #contents #main table th {
+      padding: 20px 20px 20px 0; }
+    #contents #main table td {
+      padding: 20px 0; }
   @media (min-width: 551px) {
     #contents #main {
       padding-right: 20px; } }

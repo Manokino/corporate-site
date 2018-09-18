@@ -471,7 +471,7 @@ h1{
     }
     
     h2 {
-        @include fontsize(15);
+        @include fontsize(16);
         font-weight: bold;
         color: white;
         margin: 0;
@@ -543,12 +543,13 @@ h1{
         }
 
         table {
+            color: #626262;
+            @include fontsize(14);
+            
             th{
-                @include fontsize(14);
                 padding: 20px 20px 20px 0;
             }
             td{
-                @include fontsize(14);
                 padding: 20px 0;
             }
         }
